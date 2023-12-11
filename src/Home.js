@@ -1,0 +1,24 @@
+import React from 'react'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Routes,
+    Link
+  } from "react-router-dom";
+  import App from './App'
+import Login from './components/Login';
+const Home = () => {
+  return (
+    <div>
+      <Router>
+      <Routes>
+                <Route path='/' element={<App/>}/>
+                <Route path="login" element={<Login/>}/>      
+      </Routes>
+    </Router>
+    </div>
+  )
+}
+
+export default Home
