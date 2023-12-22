@@ -13,11 +13,19 @@
     font-size: 18px;
     align-items: center;
 }
+.nav-bar .container .contain-nav .logo a{
+    text-decoration: none;
+    color: var(--white);    
+}
 .nav-bar .container .contain-nav .menu ul li a{
     margin: 20px;    
     cursor: pointer;
     transition: 0.8s;
 
+}
+.nav-bar .container .contain-nav .menu ul li a{
+    color: var(--white);
+    text-decoration: none;
 }
 .nav-bar .container .contain-nav .menu ul li:hover{
     transform: translateY(-1px);
@@ -42,7 +50,9 @@
     font-size: 27px;
     transform: 0.8s;
 }
-
+.nav-bar .container .contain-nav .feature ul li a {
+    color: white;
+}
 .nav-bar .container .contain-nav .feature ul li:hover{
     transform: translateY(-1px);
     text-shadow: 3px 3px 3px black;

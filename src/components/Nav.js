@@ -9,11 +9,11 @@ const Nav = () => {
     <div className='container'>
       <div className='contain-nav pt-4'>
           <div className='logo'>
-              <h3><span>N</span>EXUS</h3>
+              <Link to ="/"><h3><span>N</span>EXUS</h3></Link>
           </div>
           <div className='menu'>
               <ul >
-                  <li><Link to="/home">Home</Link></li>
+                  <li><Link to="/">Home</Link></li>
                   <li><Link to =''>Recent Products</Link></li>
                   <li><Link to=''>Contact</Link></li>
                   <li><Link to=''>About</Link></li>

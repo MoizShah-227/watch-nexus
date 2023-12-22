@@ -1,0 +1,60 @@
+.login-bg {
+    background-image: linear-gradient(-15deg, black,#282528e0); 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-bg .contain-login{
+    padding: 70px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+  
+  
+  
+  
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #b2560d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-option {
+    text-align: center;
+  }
+  
+  a {
+    color: #282528e0;
+    text-decoration: none;
+  }
+  
+  .login-bg h3 span{
+    padding-right: 2px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #b2560d;
+}
